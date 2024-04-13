@@ -1,0 +1,16 @@
+VERIFICATION VS VALIDATION
+
+--------------------------------------------------------
+Verification checks whether we are building the right product
+Focus on Documentation
+Verification typically involves
+	Reviews
+	Walkthroughs
+	Inspections
+
+
+Validation checks whether we are building the product right
+Takes place after verfications are completed
+Focus on Software
+Validation typically involves actual testing
+Unit testing, Integration, System testing and UAT testing
