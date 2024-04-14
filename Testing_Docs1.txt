@@ -1,0 +1,15 @@
+Static testing techniques
+-----------------------------
+
+1) Review
+2) Walkthrough
+3) Inspection
+
+
+Dynamic testing techniques
+------------------------------
+
+1) Unit testing
+2) Integration testing
+3) System testing
+4) UAT - User acceptance testing
