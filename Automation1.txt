@@ -1,0 +1,50 @@
+Selenium Automation
+-------------------
+Locators
+--------
+id
+name
+linkText
+partialLinkText
+
+TagName
+Class
+
+xpath
+
+---------------------------------------------------------------
+linkText		- Tables(Need to give full link text)
+partialLinkText		- Tab(We can give partial part of the link text but it should be unique)
+---------------------------------------------------------------
+driver.findElement(locator);    --- id, name, linkText, partialLinkText, xpath
+driver.findElements(locator);   --- cssSelector(Tag), className(Class)
+
+---------------------------------------------------------------
+
+Scenario 1: Locator matching with single web element
+findElement(locator) ---> single web element	WebElement
+findElements(locator)---> single web element	List<WebElement>
+
+
+Scenario 2: Locator matching with multiple web element
+findElement(locator) ---> single web element	WebElement
+findElements(locator)---> multiple web element	List<WebElement>
+
+
+Scenario 3: Locator is not matching with any web element/s
+findElement(locator) ---> No such Element Exception
+findElements(locator)---> Will not throw any exception. Returs 0
+
+-------------------------------------------------------------------------------------------------------
+
+CSS(Cascading Style Sheets) Selector 
+-----
+
+tag id			- tag#id
+tag class		- tag.classname
+tab attribute		- tag[attribute="value"]
+tab class attribute 	- tag.classname[attribute="value"]
+
+----------------------------------------------------------------------------------------------------
+SelectorsHub ---- It is extension used for getting locators
+----------------------------------------------------------------------------------------------------

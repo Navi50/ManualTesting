@@ -13,3 +13,22 @@ Dynamic testing techniques
 2) Integration testing
 3) System testing
 4) UAT - User acceptance testing
+
+
+QA vs QC
+-------------------------------
+
+QA is process related.
+QC is the actual testing of the software
+
+QA focuses on building in quality
+QC focuses on testing for quality
+
+QA is preventing defects
+QC is detecting defects
+
+p-people  --- QC(Actual Testers)
+p-process --- QA
+p-product --- 
+
+QE - Who ever writes automation code/scripts
